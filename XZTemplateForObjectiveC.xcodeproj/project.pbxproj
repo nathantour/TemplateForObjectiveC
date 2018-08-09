@@ -10,15 +10,54 @@
 		D485DA1A211C1BEF003C6538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA19211C1BEF003C6538 /* AppDelegate.m */; };
 		D485DA22211C1BF1003C6538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D485DA21211C1BF1003C6538 /* Assets.xcassets */; };
 		D485DA28211C1BF1003C6538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA27211C1BF1003C6538 /* main.m */; };
+		D485DA40211C34E5003C6538 /* XZBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA3F211C34E5003C6538 /* XZBaseObject.m */; };
+		D485DA43211C3528003C6538 /* XZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA42211C3528003C6538 /* XZBaseViewController.m */; };
+		D485DA46211C3545003C6538 /* XZBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA45211C3545003C6538 /* XZBaseNavigationController.m */; };
+		D485DA49211C3589003C6538 /* XZBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA48211C3589003C6538 /* XZBaseTabBarController.m */; };
+		D485DA4C211C35B3003C6538 /* XZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA4B211C35B3003C6538 /* XZBaseView.m */; };
+		D485DA4F211C35C9003C6538 /* XZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA4E211C35C9003C6538 /* XZBaseTableViewController.m */; };
+		D485DA53211C3676003C6538 /* XZUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA52211C3676003C6538 /* XZUserManager.m */; };
+		D485DA57211C3A29003C6538 /* UIViewController+XZTopmostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA56211C3A29003C6538 /* UIViewController+XZTopmostViewController.m */; };
+		D485DA5A211C3A4C003C6538 /* NSObject+XZJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA59211C3A4C003C6538 /* NSObject+XZJSON.m */; };
+		D485DA5E211C3F97003C6538 /* XZBaseNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA5D211C3F97003C6538 /* XZBaseNetworkManager.m */; };
+		D485DA61211C41A2003C6538 /* XZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D485DA60211C41A2003C6538 /* XZNetworkManager.m */; };
+		E6CF692D10ADFBED05DD8B97 /* Pods_XZTemplateForObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E4CDCCD244B333BE08A31B /* Pods_XZTemplateForObjectiveC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		027729571759FB13DA11D987 /* Pods-XZTemplateForObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTemplateForObjectiveC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZTemplateForObjectiveC/Pods-XZTemplateForObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
+		16E4CDCCD244B333BE08A31B /* Pods_XZTemplateForObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZTemplateForObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA8FAFDC2F91592002B7590 /* Pods-XZTemplateForObjectiveC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTemplateForObjectiveC.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZTemplateForObjectiveC/Pods-XZTemplateForObjectiveC.release.xcconfig"; sourceTree = "<group>"; };
 		D485DA15211C1BEF003C6538 /* XZTemplateForObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZTemplateForObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D485DA18211C1BEF003C6538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D485DA19211C1BEF003C6538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D485DA21211C1BF1003C6538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D485DA26211C1BF1003C6538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D485DA27211C1BF1003C6538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D485DA3E211C34E5003C6538 /* XZBaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseObject.h; sourceTree = "<group>"; };
+		D485DA3F211C34E5003C6538 /* XZBaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseObject.m; sourceTree = "<group>"; };
+		D485DA41211C3528003C6538 /* XZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseViewController.h; sourceTree = "<group>"; };
+		D485DA42211C3528003C6538 /* XZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseViewController.m; sourceTree = "<group>"; };
+		D485DA44211C3545003C6538 /* XZBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseNavigationController.h; sourceTree = "<group>"; };
+		D485DA45211C3545003C6538 /* XZBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseNavigationController.m; sourceTree = "<group>"; };
+		D485DA47211C3589003C6538 /* XZBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseTabBarController.h; sourceTree = "<group>"; };
+		D485DA48211C3589003C6538 /* XZBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseTabBarController.m; sourceTree = "<group>"; };
+		D485DA4A211C35B3003C6538 /* XZBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseView.h; sourceTree = "<group>"; };
+		D485DA4B211C35B3003C6538 /* XZBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseView.m; sourceTree = "<group>"; };
+		D485DA4D211C35C9003C6538 /* XZBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseTableViewController.h; sourceTree = "<group>"; };
+		D485DA4E211C35C9003C6538 /* XZBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseTableViewController.m; sourceTree = "<group>"; };
+		D485DA51211C3676003C6538 /* XZUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZUserManager.h; sourceTree = "<group>"; };
+		D485DA52211C3676003C6538 /* XZUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZUserManager.m; sourceTree = "<group>"; };
+		D485DA54211C3885003C6538 /* XZCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZCommonDefine.h; sourceTree = "<group>"; };
+		D485DA55211C3A29003C6538 /* UIViewController+XZTopmostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XZTopmostViewController.h"; sourceTree = "<group>"; };
+		D485DA56211C3A29003C6538 /* UIViewController+XZTopmostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XZTopmostViewController.m"; sourceTree = "<group>"; };
+		D485DA58211C3A4C003C6538 /* NSObject+XZJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XZJSON.h"; sourceTree = "<group>"; };
+		D485DA59211C3A4C003C6538 /* NSObject+XZJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XZJSON.m"; sourceTree = "<group>"; };
+		D485DA5C211C3F97003C6538 /* XZBaseNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseNetworkManager.h; sourceTree = "<group>"; };
+		D485DA5D211C3F97003C6538 /* XZBaseNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseNetworkManager.m; sourceTree = "<group>"; };
+		D485DA5F211C41A2003C6538 /* XZNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZNetworkManager.h; sourceTree = "<group>"; };
+		D485DA60211C41A2003C6538 /* XZNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZNetworkManager.m; sourceTree = "<group>"; };
+		D485DA62211C422B003C6538 /* XZHttpDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZHttpDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6CF692D10ADFBED05DD8B97 /* Pods_XZTemplateForObjectiveC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58A7889BE805A799AFF2B376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E4CDCCD244B333BE08A31B /* Pods_XZTemplateForObjectiveC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6157CDF66DB8980872D89FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				027729571759FB13DA11D987 /* Pods-XZTemplateForObjectiveC.debug.xcconfig */,
+				9CA8FAFDC2F91592002B7590 /* Pods-XZTemplateForObjectiveC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D485DA0C211C1BEF003C6538 = {
 			isa = PBXGroup;
 			children = (
 				D485DA17211C1BEF003C6538 /* XZTemplateForObjectiveC */,
 				D485DA16211C1BEF003C6538 /* Products */,
+				6157CDF66DB8980872D89FE2 /* Pods */,
+				58A7889BE805A799AFF2B376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +110,7 @@
 		D485DA17211C1BEF003C6538 /* XZTemplateForObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				D485DA2E211C3204003C6538 /* Classes */,
 				D485DA18211C1BEF003C6538 /* AppDelegate.h */,
 				D485DA19211C1BEF003C6538 /* AppDelegate.m */,
 				D485DA21211C1BF1003C6538 /* Assets.xcassets */,
@@ -60,6 +120,173 @@
 			path = XZTemplateForObjectiveC;
 			sourceTree = "<group>";
 		};
+		D485DA2E211C3204003C6538 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA33211C329F003C6538 /* Common */,
+				D485DA32211C3282003C6538 /* ThirdPartyLibrary */,
+				D485DA2F211C3219003C6538 /* Controllers */,
+				D485DA31211C3219003C6538 /* Models */,
+				D485DA30211C3219003C6538 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D485DA2F211C3219003C6538 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA35211C32ED003C6538 /* HomeModule */,
+				D485DA34211C32ED003C6538 /* LoginRegisterModule */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D485DA30211C3219003C6538 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA39211C32FA003C6538 /* HomeModule */,
+				D485DA38211C32FA003C6538 /* LoginRegisterModule */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D485DA31211C3219003C6538 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA37211C32F4003C6538 /* HomeModule */,
+				D485DA36211C32F4003C6538 /* LoginRegisterModule */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D485DA32211C3282003C6538 /* ThirdPartyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyLibrary;
+			sourceTree = "<group>";
+		};
+		D485DA33211C329F003C6538 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA50211C3603003C6538 /* Utils */,
+				D485DA3C211C34C3003C6538 /* Base */,
+				D485DA3A211C34C3003C6538 /* Categorys */,
+				D485DA3B211C34C3003C6538 /* Global */,
+				D485DA3D211C34C3003C6538 /* UIKit */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D485DA34211C32ED003C6538 /* LoginRegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginRegisterModule;
+			sourceTree = "<group>";
+		};
+		D485DA35211C32ED003C6538 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		D485DA36211C32F4003C6538 /* LoginRegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginRegisterModule;
+			sourceTree = "<group>";
+		};
+		D485DA37211C32F4003C6538 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		D485DA38211C32FA003C6538 /* LoginRegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginRegisterModule;
+			sourceTree = "<group>";
+		};
+		D485DA39211C32FA003C6538 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		D485DA3A211C34C3003C6538 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA55211C3A29003C6538 /* UIViewController+XZTopmostViewController.h */,
+				D485DA56211C3A29003C6538 /* UIViewController+XZTopmostViewController.m */,
+				D485DA58211C3A4C003C6538 /* NSObject+XZJSON.h */,
+				D485DA59211C3A4C003C6538 /* NSObject+XZJSON.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		D485DA3B211C34C3003C6538 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA51211C3676003C6538 /* XZUserManager.h */,
+				D485DA52211C3676003C6538 /* XZUserManager.m */,
+				D485DA54211C3885003C6538 /* XZCommonDefine.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D485DA3C211C34C3003C6538 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA3E211C34E5003C6538 /* XZBaseObject.h */,
+				D485DA3F211C34E5003C6538 /* XZBaseObject.m */,
+				D485DA4A211C35B3003C6538 /* XZBaseView.h */,
+				D485DA4B211C35B3003C6538 /* XZBaseView.m */,
+				D485DA44211C3545003C6538 /* XZBaseNavigationController.h */,
+				D485DA45211C3545003C6538 /* XZBaseNavigationController.m */,
+				D485DA47211C3589003C6538 /* XZBaseTabBarController.h */,
+				D485DA48211C3589003C6538 /* XZBaseTabBarController.m */,
+				D485DA41211C3528003C6538 /* XZBaseViewController.h */,
+				D485DA42211C3528003C6538 /* XZBaseViewController.m */,
+				D485DA4D211C35C9003C6538 /* XZBaseTableViewController.h */,
+				D485DA4E211C35C9003C6538 /* XZBaseTableViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D485DA3D211C34C3003C6538 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D485DA50211C3603003C6538 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA5B211C3F7E003C6538 /* XZHttpRequest */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D485DA5B211C3F7E003C6538 /* XZHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D485DA5C211C3F97003C6538 /* XZBaseNetworkManager.h */,
+				D485DA5D211C3F97003C6538 /* XZBaseNetworkManager.m */,
+				D485DA5F211C41A2003C6538 /* XZNetworkManager.h */,
+				D485DA60211C41A2003C6538 /* XZNetworkManager.m */,
+				D485DA62211C422B003C6538 /* XZHttpDefine.h */,
+			);
+			path = XZHttpRequest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -67,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D485DA2B211C1BF1003C6538 /* Build configuration list for PBXNativeTarget "XZTemplateForObjectiveC" */;
 			buildPhases = (
+				B833AFD87FF51E045FD751A5 /* [CP] Check Pods Manifest.lock */,
 				D485DA11211C1BEF003C6538 /* Sources */,
 				D485DA12211C1BEF003C6538 /* Frameworks */,
 				D485DA13211C1BEF003C6538 /* Resources */,
+				2863117F57E176F0A15665A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +315,7 @@
 		D485DA0D211C1BEF003C6538 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XZ;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = XiongZi;
 				TargetAttributes = {
@@ -123,13 +353,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2863117F57E176F0A15665A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XZTemplateForObjectiveC/Pods-XZTemplateForObjectiveC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZTemplateForObjectiveC/Pods-XZTemplateForObjectiveC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B833AFD87FF51E045FD751A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZTemplateForObjectiveC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D485DA11211C1BEF003C6538 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D485DA28211C1BF1003C6538 /* main.m in Sources */,
+				D485DA46211C3545003C6538 /* XZBaseNavigationController.m in Sources */,
+				D485DA53211C3676003C6538 /* XZUserManager.m in Sources */,
+				D485DA4F211C35C9003C6538 /* XZBaseTableViewController.m in Sources */,
+				D485DA49211C3589003C6538 /* XZBaseTabBarController.m in Sources */,
+				D485DA43211C3528003C6538 /* XZBaseViewController.m in Sources */,
+				D485DA40211C34E5003C6538 /* XZBaseObject.m in Sources */,
+				D485DA61211C41A2003C6538 /* XZNetworkManager.m in Sources */,
 				D485DA1A211C1BEF003C6538 /* AppDelegate.m in Sources */,
+				D485DA57211C3A29003C6538 /* UIViewController+XZTopmostViewController.m in Sources */,
+				D485DA5A211C3A4C003C6538 /* NSObject+XZJSON.m in Sources */,
+				D485DA4C211C35B3003C6538 /* XZBaseView.m in Sources */,
+				D485DA5E211C3F97003C6538 /* XZBaseNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +532,7 @@
 		};
 		D485DA2C211C1BF1003C6538 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027729571759FB13DA11D987 /* Pods-XZTemplateForObjectiveC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -267,6 +552,7 @@
 		};
 		D485DA2D211C1BF1003C6538 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA8FAFDC2F91592002B7590 /* Pods-XZTemplateForObjectiveC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
